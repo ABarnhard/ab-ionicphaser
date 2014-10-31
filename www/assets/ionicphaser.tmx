@@ -3,6 +3,9 @@
  <tileset firstgid="1" name="Mario" tilewidth="16" tileheight="16">
   <image source="super_mario.png" width="176" height="64"/>
  </tileset>
+ <tileset firstgid="45" name="Coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="192" height="32"/>
+ </tileset>
  <layer name="Background" width="100" height="50">
   <data encoding="base64" compression="zlib">
    eJztw0ENAAAMA6Grf9OTsQ8krJqqqqqqqqqqqqqqqqqqqqqqqqqq7w+SZROJ
@@ -18,4 +21,43 @@
    eJzt1NEKwiAUgGGfo4uUVr3/I6YwoUaaEM2o74P/aiOPHFYIAAAAAAAAAAAAAAAAAAD/5TB7gI5jLs0eYkflvqfwnXcus8W1NHeUXdRd1NLUaR7VXSxrs3fy6f+Qct9yz7qLGPbdyTl3yV0bs8W7lvD8O+n9xsjz0ffqPKnxfPSs1jvb72Jb79x3zw4vzpYkSZIk/W43nHqBIA==
   </data>
  </layer>
+ <layer name="Floor" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztw0EJAAAIBLDLYv+QJri/yAZLAAAAAAAAAAAAAAAAAAAAgGtGrQEA4LMFnrQakQ==
+  </data>
+ </layer>
+ <objectgroup name="Coins">
+  <object gid="45" x="496" y="656"/>
+  <object gid="45" x="592" y="624"/>
+  <object gid="45" x="672" y="640"/>
+  <object gid="45" x="16" y="624"/>
+  <object gid="45" x="64" y="656"/>
+  <object gid="45" x="176" y="608"/>
+  <object gid="45" x="240" y="640"/>
+  <object gid="45" x="320" y="608"/>
+  <object gid="45" x="752" y="640"/>
+  <object gid="45" x="880" y="576"/>
+  <object gid="45" x="1008" y="656"/>
+  <object gid="45" x="1120" y="624"/>
+  <object gid="45" x="1376" y="608"/>
+  <object gid="45" x="1504" y="640"/>
+  <object gid="45" x="1552" y="608"/>
+  <object gid="45" x="1232" y="624"/>
+  <object gid="45" x="1264" y="576"/>
+  <object gid="45" x="1296" y="576"/>
+  <object gid="45" x="1232" y="576"/>
+  <object gid="45" x="1200" y="576"/>
+  <object gid="45" x="1184" y="576"/>
+  <object gid="45" x="1152" y="576"/>
+  <object gid="45" x="1328" y="576"/>
+  <object gid="45" x="1360" y="576"/>
+  <object gid="45" x="1392" y="576"/>
+  <object gid="45" x="1376" y="576"/>
+  <object gid="45" x="1344" y="576"/>
+  <object gid="45" x="1312" y="576"/>
+  <object gid="45" x="1280" y="576"/>
+  <object gid="45" x="1248" y="576"/>
+  <object gid="45" x="1216" y="576"/>
+  <object gid="45" x="1168" y="576"/>
+ </objectgroup>
 </map>
